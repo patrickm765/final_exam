@@ -1,4 +1,4 @@
-# Question 3
+# Question 3 do not understand not allowed to print the whole pattern so I have done it end to end
 
 class Pattern:
     def __init__(self, size):
