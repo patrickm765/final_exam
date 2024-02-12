@@ -15,14 +15,14 @@ def write_f(f_values):
         for i, f in enumerate(f_values):
             file.write(f"{i}: {f}\n")
 
-def read_numbers(file_path):
+def read_numbers(self):
     values = []
     try:
-        with open(file_path, 'r') as file:
+        with open(self, 'r') as file:
             for line in file:
                 values.append(float(line.strip()))  # Convert each line to a float
     except FileNotFoundError:
-        print(f"File '{file_path}' error")
+        print(f"File '{self}' error")
     return values
 
 
