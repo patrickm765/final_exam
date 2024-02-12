@@ -8,6 +8,8 @@ image = Image.open("Colors.png")
 # Get the width and height of the image
 width, height = image.size
 
+#image size = h = 532 and w = 541
+
 
 for x in range(width):
     for y in range(height):

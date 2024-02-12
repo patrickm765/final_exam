@@ -33,5 +33,4 @@ fo_values = read_numbers("fo.txt")
 if v_values and fo_values:
     f_values = calc_f(v_values, fo_values)
 
-    
     write_f(f_values)
